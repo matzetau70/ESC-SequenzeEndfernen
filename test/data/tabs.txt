@@ -1,0 +1,1 @@
+Spalte A\tSpalte B\tSpalte C

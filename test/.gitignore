@@ -1,0 +1,9 @@
+# Laufzeit-Artefakte des Testläufers
+/output/
+
+# Vom Editor/Tool angelegte Python-Caches
+/.mypy_cache/
+
+# Backups & temporäre Dateien der Tests
+*.bak
+*.bak.*
