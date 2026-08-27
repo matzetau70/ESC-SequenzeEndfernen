@@ -174,10 +174,3 @@ fi
 5. **2-Argument-Modus:** `Zeile1\nZeile2\tTab` → Ausgabe korrekt mit echtem Umbruch (`$`) und echtem Tab (`^I`); Eingabedatei unverändert.
 6. **Fehlerfälle:** 0 / 3 Argumente sowie nicht vorhandene Eingabedatei → jeweils Exit-Code 1 mit Meldung.
 7. **Help-Funktion:** `-h` und `--help` zeigen die Hilfe mit korrekt dargestellten Escape-Sequenzen, Exit-Code 0.
-
----
-
-## 6. Hinweise
-
-- Der Dateiname enthält einen Tippfehler: `Endfernen` statt `Entfernen`. Korrektur auf Wunsch möglich.
-- Beim letzten Check fehlten im Repo-Ordner u. a. `datei.txt`, `clean2.md`, `clean.txt` sowie diese Zusammenfassung. Sie wurden bei Bedarf neu erstellt.
