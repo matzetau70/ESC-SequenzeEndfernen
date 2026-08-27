@@ -155,7 +155,7 @@ fi
 ## 4. Verhalten im Detail
 
 | Fall | Verhalten |
-|---|---|
+| --- | --- |
 | `-h` / `--help` | Zeigt die Hilfe an, Exit-Code 0 |
 | 0 oder 3+ Argumente | Usage-Meldung `<eingabedatei> [<ausgabedatei>]`, Exit-Code 1 |
 | 1 Argument | Backup `<datei>.bak` (bei Konflikt mit Zeitstempel), dann In-Place-Konvertierung |
