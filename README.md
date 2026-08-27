@@ -1,6 +1,6 @@
 # Zusammenfassung: `escapeSequenteEndfernen.sh`
 
-**Version:** 1.3.0
+**Version:** 1.4.0
 **Stand:** 27.08.2026
 **Projekt:** 2dGame_02
 
@@ -13,6 +13,7 @@
 | 1.0.0   | 27.08.2026 | Robuste Basisversion: zeilenweise Verarbeitung mit `read -r` + `printf '%b'` statt `echo -e "$(cat ...)"` |
 | 1.1.0   | 27.08.2026 | Ein- und Ausgabedatei als Argumente (`$0 <eingabedatei> <ausgabedatei>`) |
 | 1.2.0   | 27.08.2026 | In-Place-Modus mit Backup bei nur einem Argument (`$0 <eingabedatei>`) |
+| 1.4.0   | 27.08.2026 | Versionsnummer erhöht, Doku/Changelog aktualisiert (keine funktionalen Änderungen) |
 | 1.3.0   | 27.08.2026 | Help-Funktion (`-h` / `--help`) mit Usage, Modi, Beispielen und Version |
 
 ---
@@ -40,7 +41,7 @@ set -euo pipefail
 
 # ------------------------------------------------------------------
 # escapeSequenteEndfernen.sh
-# Version: 1.3.0
+# Version: 1.4.0
 #
 # Wandelt Backslash-Escape-Sequenzen in echte Zeichen um:
 #   \n  -> Zeilenumbruch
@@ -93,7 +94,7 @@ BEISPIELE:
     $script_name --help                     # Diese Hilfe anzeigen
 
 VERSION:
-    1.3.0
+    1.4.0
 EOF
 }
 

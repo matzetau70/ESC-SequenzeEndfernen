@@ -3,7 +3,7 @@ set -euo pipefail
 
 # ------------------------------------------------------------------
 # escapeSequenteEndfernen.sh
-# Version: 1.3.0
+# Version: 1.4.0
 #
 # Wandelt Backslash-Escape-Sequenzen in echte Zeichen um:
 #   \n  -> Zeilenumbruch
@@ -56,7 +56,7 @@ BEISPIELE:
     $script_name --help                     # Diese Hilfe anzeigen
 
 VERSION:
-    1.3.0
+    1.4.0
 EOF
 }
 
