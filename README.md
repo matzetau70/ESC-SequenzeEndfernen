@@ -1,4 +1,4 @@
-# Zusammenfassung: `escapeSequenteEndfernen.sh`
+# Zusammenfassung: `escapeSequenzeEndfernen.sh`
 
 **Version:** 1.4.0
 **Stand:** 27.08.2026
@@ -20,7 +20,7 @@
 
 ## 1. Aufgabe
 
-Das Shell-Skript `escapeSequenteEndfernen.sh` wandelt Backslash-Escape-Sequenzen in echte Zeichen um (`\n` → Zeilenumbruch, `\t` → Tabulator, `\"` → Anführungszeichen, `\\` → Backslash). Es wurde schrittweise robuster gemacht und um einen **In-Place-Modus mit Backup** erweitert.
+Das Shell-Skript `escapeSequenzeEndfernen.sh` wandelt Backslash-Escape-Sequenzen in echte Zeichen um (`\n` → Zeilenumbruch, `\t` → Tabulator, `\"` → Anführungszeichen, `\\` → Backslash). Es wurde schrittweise robuster gemacht und um einen **In-Place-Modus mit Backup** erweitert.
 
 ---
 
